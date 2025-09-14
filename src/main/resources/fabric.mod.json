@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "rifted",
+	"version": "${version}",
+	"name": "rifted",
+	"description": "Open rifts and get awesome rewards",
+	"authors": [
+		"TeuisMan"
+	],
+	"contact": {
+		"homepage": "teunisw.nl",
+		"sources": "https://github.com/TeunisMan/Rifted"
+	},
+	"license": "MIT",
+	"icon": "assets/rifted/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.teunisman.rifted.Rifted"
+		],
+		"fabric-datagen": [
+			"net.teunisman.rifted.RiftedDataGenerator"
+		],
+      "client": [
+        "net.teunisman.rifted.RiftedClient"
+      ]
+	},
+	"mixins": [
+		"rifted.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "rifted",
+  "ingredients": [
+    {
+      "item": "rifted:pink_garnet_block"
+    }
+  ],
+  "result": {
+    "item": "rifted:pink_garnet",
+    "count": 9,
+    "id": "rifted:pink_garnet"
+  }
+}

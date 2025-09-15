@@ -28,6 +28,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModdedBlocks.PINK_GARNET_BLOCK);
                         entries.add(ModdedBlocks.PINK_GARNET_ORE);
+                        entries.add(ModdedBlocks.TRYSTANIUM_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "rifted",
+  "result": {
+    "item": "rifted:pink_garnet_block",
+    "count": 1,
+    "id": "rifted:pink_garnet_block"
+  },
+  "pattern": [
+    "PPP",
+    "PPP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "rifted:pink_garnet"
+    }
+  }
+}

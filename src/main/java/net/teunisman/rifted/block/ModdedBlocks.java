@@ -21,6 +21,9 @@ public class ModdedBlocks {
             new Block(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
+    public static final Block TRYSTANIUM_BLOCK = registerBlock("trystanium_block",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.METAL)));
 
     //helper method to register blocks
     private static Block registerBlock(String name, Block block) {
@@ -39,6 +42,7 @@ public class ModdedBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModdedBlocks.PINK_GARNET_BLOCK);
             entries.add(ModdedBlocks.PINK_GARNET_ORE);
+            entries.add(ModdedBlocks.TRYSTANIUM_BLOCK);
         });
     }
 }

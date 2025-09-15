@@ -1,4 +1,10 @@
 {
   "item.rifted.pink_garnet": "Pink Garnet",
-  "item.rifted.raw_pink_garnet": "Raw Pink Garnet"
+  "item.rifted.raw_pink_garnet": "Raw Pink Garnet",
+
+  "block.rifted.pink_garnet_block": "Pink Garnet Block",
+  "block.rifted.pink_garnet_ore": "Pink Garnet Ore",
+
+  "rifted.rifted_items": "Rifted Items",
+  "rifted.rifted_blocks": "Rifted Blocks"
 }

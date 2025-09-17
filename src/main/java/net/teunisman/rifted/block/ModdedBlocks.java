@@ -22,8 +22,10 @@ public class ModdedBlocks {
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
     public static final Block TRYSTANIUM_BLOCK = registerBlock("trystanium_block",
-            new Block(AbstractBlock.Settings.create().strength(4f)
-                    .requiresTool().sounds(BlockSoundGroup.METAL)));
+            new TrystaniumBlock(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)));
 
     //helper method to register blocks
     private static Block registerBlock(String name, Block block) {
